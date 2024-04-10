@@ -124,6 +124,7 @@ const detectTableMutation = (mutationList, observer) => {
         div_wrapper.appendChild(iframe);
         div_wrapper.appendChild(close_button);
         parentNode.appendChild(div_wrapper);
+        div_wrapper.scrollIntoView();
     }
 };
 
